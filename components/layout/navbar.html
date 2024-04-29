@@ -1,4 +1,4 @@
-<div class="bg-gray-100">
+<div class=" relative z-[100] bg-gray-100">
     <div class="max-w-[1536px] mx-auto p-4">
         <div class="flex justify-between">
             <div class="flex items-center">
@@ -16,33 +16,1310 @@
     </div>
 </div>
 <!-- Nav Bar -->
-<div class="bg-white-400 ">
-    <div class="max-w-[1536px] mx-auto p-4">
+
+<div class=" relative z-[100] bg-white">
+
+    <div class=" max-w-[1536px] mx-auto p-4">
         <div class="flex justify-between  ">
-            <a href=""><img src="../../images/home/nike1.png" class="min-w-[80px] w-[80px] flex justify-start flex-nowrap"></a>
-
-            <ul class="flex space-x-4 justify-center items-center text-center flex-wrap ">
-                <li class="hover:underline "><a href="">New & Feature</a></li>
-                <li class="hover:underline" ><a href="">Men </a></li>
-                <li class="hover:underline" ><a href="">Women </a></li>
-                <li class="hover:underline" ><a href="">Kids</a></li>
-                <li class="hover:underline" ><a href="">Acessories</a></li>
-                <li class="hover:underline" ><a href="">Sale</a></li>
-            </ul>
-
-            <div class="flex items-center gap-10 relative flex-nowrap">
-                <div class="flex items-center">
-                    <img src="../../images/home/search-interface-symbol.png" alt="" class="w-[20px] absolute left-3">
-                    <input type="text" class="border rounded-full py-2 px-4 focus:outline-none pl-10 bg-gray-100"
-                        placeholder="search">
+            <a href="../../pages/home/home.html"><img src="../../images/home/nike1.png"
+                    class="min-w-[80px] w-[80px] flex justify-start flex-nowrap"></a>
+            <div class="flex space-x-4 justify-center items-center text-center flex-wrap ">
+                <div id="new-btn">
+                    <button  class=" hover:underline "><a href="../../pages/home/home.html">New & Feature</a></button>
+                  
+                </div>
+                <div id="new-btn">
+                    <button class="hover:underline "><a href="../../pages/home/home.html">Men</a></button>
+                </div>
+                <div id="new-btn">
+                    <button class="hover:underline "><a href="../../pages/home/home.html">Women</a></button>
+                </div>
+                <div id="new-btn">
+                    <button class="hover:underline "><a href="../../pages/home/home.html">Kids</a></button>
+                </div>
+                <div id="new-btn">
+                    <button class="hover:underline "><a href="../../pages/home/home.html">Sale</a></button>
                 </div>
 
-                <div class="flex items-center gap-3">
-                    <a href="#"><img src="../../images/home/like.png" alt="" class="min-w-[25px] w-[25px]"></a>
-                    <a href="#"><img src="../../images/home/market.png" alt="" class="min-w-[25px] w-[25px]"></a>
-                </div>
+                <div class=" flex items-center gap-10 relative flex-nowrap">
+                    <div class="flex items-center">
+                        <img src="../../images/home/search-interface-symbol.png" alt=""
+                            class="w-[20px] absolute left-3">
+                        <input type="text" class="border rounded-full py-2 px-4 focus:outline-none pl-10 bg-gray-100"
+                            placeholder="search">
+                    </div>
 
+                    <div class="flex items-center gap-3">
+                        <a href="#"><img src="../../images/home/like.png" alt="" class="min-w-[25px] w-[25px]"></a>
+                        <a href="#"><img src="../../images/home/market.png" alt="" class="min-w-[25px] w-[25px]"></a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<div id="list-container-new" class="fixed top-[-100%] z-1 bg-red-300 mx-auto w-full duration-300 ">
+    <div class="max-w-[1000px] mx-auto">
+      <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+          <div >
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                  Jordan Family Days
+              </h2>
+              <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="#" class=" hover:underline"> Shop the Collection
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Shop All Jordan
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> New Releases
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Men
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+                          Women
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+                          Kids
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Basketball </a>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                  Featured
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> New Arrivals
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Best Sellers
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Member Product
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">SNKRS Launch Calendar
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Mother's Day Shop
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                      </a>
+                  </li>
+              </ul>
+          </div>
+
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                  Classics
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Air Jordan 1
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Air Force
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">Dunk
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Air Max
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+                          Blazer
+
+                      </a>
+                  </li>
+
+              </ul>
+          </div>
+
+          <div>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                  New For Men
+              </h2>
+              <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Shoes
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Clothing
+
+
+                      </a>
+                  </li>
+              </ul>
+
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                  For Women</h2>
+              <ul class="dark:text-gray-400">
+
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline"> Shoes
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+                          Clothing
+
+                      </a>
+                  </li>
+              </ul>
+              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                  New For Kids </h2>
+
+
+              <ul class="dark:text-gray-400">
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+
+                          Shoes
+
+
+                      </a>
+                  </li>
+                  <li class="mb-4">
+                      <a href="#" class="hover:underline">
+                          Clothing
+                      </a>
+                  </li>
+              </ul>
+              </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <div>
+                    <h1 class="hover:underline "><a href="../../pages/home/home.html">Men</a></h1>
+                    <nav class="bg-white">
+                        <div class="mx-auto w-full max-w-screen-xl">
+                            <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        Jordan Family Days
+
+                                    </h2>
+                                    <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class=" hover:underline"> Shop the Collection
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Shop All Jordan
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Releases
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Men
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Women
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Kids
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Basketball </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                                        Featured
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Arrivals
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Best Sellers
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Member Product
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">SNKRS Launch Calendar
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Mother's Day Shop
+
+
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                                        Classics
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Jordan 1
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Force
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Dunk
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Air Max
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Blazer
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        New For Men
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Clothing
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                                        For Women</h2>
+                                    <ul class="dark:text-gray-400">
+
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                                        New For Kids </h2>
+
+
+                                    <ul class="dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Shoes
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="hover:underline "><a href="../../pages/home/home.html">Women</a></h1>
+                    <nav class="bg-white">
+                        <div class="mx-auto w-full max-w-screen-xl">
+                            <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        Jordan Family Days
+
+                                    </h2>
+                                    <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class=" hover:underline"> Shop the Collection
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Shop All Jordan
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Releases
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Men
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Women
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Kids
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Basketball </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                                        Featured
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Arrivals
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Best Sellers
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Member Product
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">SNKRS Launch Calendar
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Mother's Day Shop
+
+
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                                        Classics
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Jordan 1
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Force
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Dunk
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Air Max
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Blazer
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        New For Men
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Clothing
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                                        For Women</h2>
+                                    <ul class="dark:text-gray-400">
+
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                                        New For Kids </h2>
+
+
+                                    <ul class="dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Shoes
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <button class="btn-1 hover:underline "><a href="../../pages/home/home.html">Kids</a></button>
+                    <nav class="list-container bg-white">
+                        <div class="mx-auto w-full max-w-screen-xl">
+                            <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        Jordan Family Days
+
+                                    </h2>
+                                    <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class=" hover:underline"> Shop the Collection
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Shop All Jordan
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Releases
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Men
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Women
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Kids
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Basketball </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                                        Featured
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Arrivals
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Best Sellers
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Member Product
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">SNKRS Launch Calendar
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Mother's Day Shop
+
+
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                                        Classics
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Jordan 1
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Force
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Dunk
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Air Max
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Blazer
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        New For Men
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Clothing
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                                        For Women</h2>
+                                    <ul class="dark:text-gray-400">
+
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                                        New For Kids </h2>
+
+
+                                    <ul class="dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Shoes
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="hover:underline "><a href="../../pages/home/home.html">Sale</a></h1>
+                    <nav class="bg-white">
+                        <div class="mx-auto w-full max-w-screen-xl">
+                            <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        Jordan Family Days
+
+                                    </h2>
+                                    <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class=" hover:underline"> Shop the Collection
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Shop All Jordan
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Releases
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Men
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Women
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Kids
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Basketball </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                                        Featured
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Arrivals
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Best Sellers
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Member Product
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">SNKRS Launch Calendar
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Mother's Day Shop
+
+
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                                        Classics
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Jordan 1
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Force
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Dunk
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Air Max
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Blazer
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        New For Men
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Clothing
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                                        For Women</h2>
+                                    <ul class="dark:text-gray-400">
+
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                                        New For Kids </h2>
+
+
+                                    <ul class="dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Shoes
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="hover:underline "><a href="../../pages/home/home.html">Jordan</a></h1>
+                    <nav class="bg-white">
+                        <div class="mx-auto w-full max-w-screen-xl">
+                            <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        Jordan Family Days
+
+                                    </h2>
+                                    <ul class="mb-6 text-sm font-semibold  dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class=" hover:underline"> Shop the Collection
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Shop All Jordan
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Releases
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Men
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Women
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Kids
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Basketball </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New &
+                                        Featured
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New Arrivals
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Best Sellers
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Member Product
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> New & Upcoming Drops
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">SNKRS Launch Calendar
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Mother's Day Shop
+
+
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Add to Bag to See Price
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Sale: Up to 50% Off
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">Shop
+                                        Classics
+
+
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-normal">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Jordan 1
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Air Force
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">Dunk
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Air Max
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Blazer
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+                                        New For Men
+                                    </h2>
+                                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Clothing
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">New
+                                        For Women</h2>
+                                    <ul class="dark:text-gray-400">
+
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline"> Shoes
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-black">
+
+                                        New For Kids </h2>
+
+
+                                    <ul class="dark:text-gray-400">
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+                                                Shoes
+
+
+                                            </a>
+                                        </li>
+                                        <li class="mb-4">
+                                            <a href="#" class="hover:underline">
+
+
+                                                Clothing
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div> -->

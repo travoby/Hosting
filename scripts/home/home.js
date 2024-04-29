@@ -47,3 +47,12 @@ fetch("../../components/home/section-5.html")
 .catch((error) => console.error("Error fetching included file:", error));
 
 
+const footer = document.querySelector(".footer-layout");
+document.addEventListener("DOMContentLoaded", function() {})
+fetch("../../components/home/footer.html")
+.then((res) => res.text())
+.then((data) => {
+  footer.innerHTML = data;
+})
+.catch((error) => console.error("Error fetching included file:", error));
+

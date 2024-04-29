@@ -46,7 +46,7 @@ fetch("../../components/men/men-section.html")
 
 const member = document.querySelector(".member-layout");
 document.addEventListener("DOMContentLoaded", function() {})
-fetch("../../components/home/section-5.html")
+fetch("../../components/men/member-section.html")
 .then((res) => res.text())
 .then((data) => {
   member.innerHTML = data;

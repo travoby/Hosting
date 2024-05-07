@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,93 +8,77 @@
     <link rel="stylesheet" href="../../styles/output.css">
     <link rel="stylesheet" href="../../styles/style.css">
     <!-- font -->
-    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold"
+        rel="stylesheet">
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
     <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-<!--call navbar from component layout by class-->
-<navbar-layout class="navbar-layout" ></navbar-layout>
+    <!--call navbar from component layout by class-->
+    <navbar-layout class="navbar-layout"></navbar-layout>
 
 
 
-<!-- body write here -->
-<nav class=" border-gray-200 bg-gray-100 ">
-    <div class=" p-3 px-1 w-full  ">
-        <ul class="flex justify-center text-center gap-4">
-            <li class="  text-md font-semibold"> Members: Free Shipping on Orders $50+</li>
-            <li class="  text-md font-semibold"> Sale: Up to 50% Off</li>
-        </ul>
-    </div>
-</nav>
-
-<section class="sticky top-0 z-[10] bg-white member-content-layout">
-    <header class="w-full items-center lg:justify-center justify-between flex">
-      <div
-        class="lg:items-center lg:relative lg:justify-start justify-between w-full max-w-[1850px] py-[20px] flex lg:flex-row flex-col p-6">
-        <!-- logo nike -->
-        <div class="flex items-center justify-start">
-          <p class="text-[26px]">Nike Membership</p>
+    <!-- body write here -->
+    <nav class=" border-gray-200 bg-gray-100  max-sm:text-[10px]">
+        <div class=" p-3 px-1 w-full   ">
+            <ul class=" flex justify-center text-center gap-4">
+                <li class="  text-md font-semibold"> Members: Free Shipping on Orders $50+</li>
+                <li class="  text-md font-semibold"> Sale: Up to 50% Off</li>
+            </ul>
         </div>
-  
-        <!-- right side text -->
-        <div class="lg:absolute lg:flex items-center lg:justify-center w-full">
-          <ul class="grid grid-cols-3 gap-8 text-[16px]">
-            <li>
-              <a href="#"
-                ><span class="hover:text-gray-300">Explore the Nike App</span></a
-              >
-            </li>
-  
-            <li>
-              <a href="#"
-                ><span class="hover:text-gray-300">Member Product</span></a
-              >
-            </li>
-  
-            <li>
-              <a href="#"><span class="hover:text-gray-300">Sign Up</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
-  </section>
+    </nav>
 
-
-<section class="max-w-[1536px] mx-auto ">
-    <!-- subnav -->
-
-        <!-- <div class="w-full max-w-[1536px] z-[120] mx-auto sticky top-0">
-            <div class="flex justify-between  max-sm:flex-col bg-white py-4">
-                <div>
-                    <h1 class="flex text-[24px] font-medium px-4">Men</h1>
+    <section class=" max-w-[1536px] mx-auto sticky top-0 z-[10] bg-white member-content-layout">
+        <header class="w-full items-center lg:justify-center justify-between flex">
+            <div
+                class="lg:items-center lg:relative lg:justify-start justify-between w-full max-w-[1850px] py-[20px] flex lg:flex-row flex-col p-6">
+                <!-- logo nike -->
+                <div class="flex items-center justify-start">
+                    <p class="text-[26px]">Men</p>
                 </div>
-                <div>
-                    <ul class="flex gap-5 text-center justify-items items-center pt-3 px-4">
-                        <li class="hover:underline" ><a href="#"></a>Shoes</li>
-                        <li class="hover:underline" ><a href="#"></a>Clothing</li>
-                        <li class="hover:underline" ><a href="#"></a>Accessories</li>
-                        <li class="hover:underline" ><a href="#"></a>Sale</li>
+
+                <!-- right side text -->
+                <div class="lg:absolute lg:flex items-center lg:justify-center w-full">
+                    <ul class="grid grid-cols-4 gap-8 text-[16px]">
+                        <li>
+                            <a href="#"><span class="hover:text-gray-300">Shoes</span></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><span class="hover:text-gray-300">Clothing</span></a>
+                        </li>
+
+                        <li>
+                            <a href="#"><span class="hover:text-gray-300">Accessories</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="hover:text-gray-300">Sales</span></a>
+                        </li>
                     </ul>
                 </div>
-                <div class="invisible">
-                    <h1 class="flex">Men</h1>
-                </div>
             </div>
-        </div> -->
+        </header>
+    </section>
 
-        
 
-    <!-- Hero> -->
+    <section class="max-w-[1536px] mx-auto ">
+
+        <!-- Hero> -->
         <div class=" flex-col justify-center text-center">
             <div class="pt-3 px-1 w-full max-w-[1536px] mx-auto ">
-                <div class="max-sm:w-full h-[600px]">
+                <div class=" w-full h-[800px] max-sm:hidden block  ">
                     <img src="../images/men1.jpeg" alt="" class="h-full w-full">
+                </div>
+                <div class="max-sm:block hidden w-full">
+                    <img src="../images/men-s-shoes-clothing-accessories.jpg" alt="" class="h-full w-full">
                 </div>
                 <div class="max-w-md mx-auto md:max-w-2xl max-sm:text-start ">
                     <div class="mt-10  text-[#1e3934] text-[19px] ">
@@ -110,123 +95,125 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-        
-
-    <!-- Shop -->
-    <div class="pt-5">
-        <div class="max-w-[1536px] mx-auto mt-10 md:overflow-hidden overflow-x-scroll">
-            <h1 class="text-[25px] font-normal px-4">Shop Essentails</h1>
-            <div class="flex gap-3 mt-8">
-                <div class="w-full">
-                    <div class="w-full max-sm:w-[300px] h-full">
-                        <img src="../images/men2.jpeg" alt="" class="w-full object-cover">
-                        <h1 class="pt-4 text-[15px]">
-                            Clothing
-                        </h1>
-                        <h1 class=" py-2 text-xl">
-                            The Seasons latest must-haves.
-                        </h1>
-
-                    </div>
-    
-                </div>
-                <div class="w-full">
-                    <div  class="w-full max-sm:w-[300px] h-full">
-                        <img src="../images/men3.jpeg" alt="" class="w-full  object-cover">
-                        <h1 class="pt-4 text-[15px]"> Shoes</h1>
-                        <h1 class=" py-2 text-xl">
-                            All our Best & Greatest footwear.
-                        </h>
-                    </div>
-    
-    
-                </div>
-    
-                <div class="w-full">
-                    <div  class="w-full max-sm:w-[300px] h-full">
-                        <img src="../images/men4.jpeg" alt="" class="w-full  object-cover">
-                        <h1 class="pt-4 text-[15px]"> Acessories</h1>
-                        <h1 class=" py-2 text-xl">
-                            From hats to sports equipment & beyond.
-                        </h>
-                    </div>
-                </div>
-    
-            </div>
-        </div>
-    </div>
 
 
-<!-- marathon -->
-    <div class=" flex-col ">
-        <div class=" max-w-[1536px] mx-auto  px-4 mt-20 py-3 w-full text-start text-[25px] max-sm:w-[800px] ">
-            <h1>Marathon Speed Ahead</h1>
-        </div>    
-        <div class="">
-            <img src="../images/marathon-1.jpeg" alt="" class="h-full w-full sm:block hidden">
-            <img src="../images/maraton0.jpeg" alt="" class="sm:hidden block">
-            
-        </div>
-        <div class="max-w-[1536px] mx-auto p-4 flex-col justify-center text-center">
-            <div class="max-w-md mx-auto md:max-w-2xl max-sm:text-start">
-                <div class=" py-5 text-[#1e3934] text-[19px] ">
-                    <a href="">
-                        <div class="font-semibold ">
-                            <h3>Nike Alphafly 3</h3>
+        <!-- Shop -->
+        <div class="pt-5">
+            <div class="max-w-[1536px] mx-auto mt-10 md:overflow-hidden overflow-x-scroll">
+                <h1 class="text-[25px] font-normal px-4">Shop Essentails</h1>
+                <div class="flex gap-3 mt-8">
+                    <div class="w-full">
+                        <div class="w-full max-sm:w-[300px] h-full">
+                            <img src="../images/men2.jpeg" alt="" class="w-full object-cover">
+                            <h1 class="pt-4 text-[15px]">
+                                Clothing
+                            </h1>
+                            <h1 class=" py-2 text-xl">
+                                The Seasons latest must-haves.
+                            </h1>
+
                         </div>
-                        <div class="mt-2 ">
-                            <h5 class="text-black text-3xl">LEAVE YOURSELF</h5>
-                            <h5 class="text-black text-3xl ">IN THE DUST</h5>
-                            <p class="py-2">Stay fresh from start to mile 26.2 in the electric new colorway.</p>
-                            <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> Shop </button>
+
+                    </div>
+                    <div class="w-full">
+                        <div class="w-full max-sm:w-[300px] h-full">
+                            <img src="../images/men3.jpeg" alt="" class="w-full  object-cover">
+                            <h1 class="pt-4 text-[15px]"> Shoes</h1>
+                            <h1 class=" py-2 text-xl">
+                                All our Best & Greatest footwear.
+                                </h>
                         </div>
-                    </a>
+
+
+                    </div>
+
+                    <div class="w-full">
+                        <div class="w-full max-sm:w-[300px] h-full">
+                            <img src="../images/men4.jpeg" alt="" class="w-full  object-cover">
+                            <h1 class="pt-4 text-[15px]"> Acessories</h1>
+                            <h1 class=" py-2 text-xl">
+                                From hats to sports equipment & beyond.
+                                </h>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
-    </div>
 
-<!-- Classic -->
-<div class="max-w-[1536px] mx-auto px-4 mt-10 overflow-x-scroll">
-    <h1>Classic Sportlight</h1>
-    <div class="max-w-[1536px] mx-auto  relative   flex items-center  ">   
-        <button id="previousBtn" class="absolute z-40 left-5">Previous</button>
-        <button class="absolute z-40 right-0 bg-red-700">Next</button>
-        <div class="px-4  ">
-            
-                <div class=" flex mt-8  ">
-                    <div class="flex  gap-5  translate-x-[500px]">
 
-                        <div class="w-full">
+        <!-- marathon -->
+        <div class=" flex-col ">
+            <div class=" max-w-[1536px] mx-auto  px-4 mt-20 py-3 w-full text-start text-[25px] max-sm:w-[800px] ">
+                <h1>Marathon Speed Ahead</h1>
+            </div>
+            <div class="">
+                <img src="../images/marathon-1.jpeg" alt="" class="h-full w-full sm:block hidden">
+                <img src="../images/maraton0.jpeg" alt="" class="sm:hidden block">
+
+            </div>
+            <div class="max-w-[1536px] mx-auto p-4 flex-col justify-center text-center">
+                <div class="max-w-md mx-auto md:max-w-2xl max-sm:text-start">
+                    <div class=" py-5 text-[#1e3934] text-[19px] ">
+                        <a href="">
+                            <div class="font-semibold ">
+                                <h3>Nike Alphafly 3</h3>
+                            </div>
+                            <div class="mt-2 ">
+                                <h5 class="text-black text-3xl">LEAVE YOURSELF</h5>
+                                <h5 class="text-black text-3xl ">IN THE DUST</h5>
+                                <p class="py-2">Stay fresh from start to mile 26.2 in the electric new colorway.</p>
+                                <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> Shop </button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Classic -->
+        <Section class="max-w-[1536px] mx-auto mt-10 ">
+            <h1 class="text-2xl font-medium">Classic by Sportlight</h1>
+            <div class=" relative  flex items-center overflow-x-hidden">
+
+                <button id="classicPre" class="absolute z-40 left-5"> <img src="../images/left-chevron.png" alt=""
+                        class="w-[30px]"> </button>
+                <button id="classicNext" class="absolute z-40 right-0"><img src="../images/chevron.png" alt=""
+                        class="w-[30px]"></button>
+                <div id="classMenCard" class="px-4  mt-6  ">
+
+                    <div class=" gap-5 flex mt-8   duration-200">
+
+                        <div id="classMenImage" class="w-full">
                             <div class="w-[400px] h-[400px]">
                                 <img src="../images/women-12.jpeg" alt="" class="w-full h-full object-cover">
                             </div>
 
                         </div>
-                        <div class="w-full">
+                        <div id="classMenImage" class="w-full">
                             <div class="w-[400px] h-[400px]">
                                 <img src="../images/women-9.jpeg" alt="" class="w-full h-full object-cover">
                             </div>
 
 
                         </div>
-                        <div class="w-full">
+                        <div id="classMenImage" class="w-full">
                             <div class="w-[400px] h-[400px]">
                                 <img src="../images/women-10.jpeg" alt="" class="w-full h-full object-cover">
                             </div>
 
 
                         </div>
-                        <div class="w-full">
+                        <div id="classMenImage" class="w-full">
                             <div class="w-[400px] h-[400px]">
                                 <img src="../images/women-8.jpeg" alt="" class="w-full h-full object-cover">
                             </div>
 
 
                         </div>
-                        <div class="w-full">
+                        <div id="classMenImage" class="w-full">
                             <div class="w-[400px] h-[400px]">
                                 <img src="../images/women-11.jpeg" alt="" class="w-full h-full object-cover">
                             </div>
@@ -236,134 +223,139 @@
 
 
                     </div>
+
                 </div>
-            
-        </div>
-    </div>
-</div>
- <!-- brooks -->
+            </div>
+        </Section>
+
+        <!-- brooks -->
         <div class="max-w-[1536px] mx-auto mt-10">
             <div class="overflow-x-scroll mt-10 px-4 ">
                 <h1 class="text-2xl px-3">Brooks Koepka's Favs</h1>
                 <div class="flex gap-3  mt-10 max-sm:flex-col">
                     <div class=" relative w-full">
                         <img src="../images/brooks-4.jpeg" alt="" class="w-full h-[550px] object-cover">
-    
+
                         <div class="absolute bottom-10 left-10 text-white">
-                            
-                            <h1 class="text-2xl">  Brooks's Golf Essentials</h1>
+
+                            <h1 class="text-2xl"> Brooks's Golf Essentials</h1>
                             <button class="bg-white text-black mt-5 px-4 py-1  rounded-full"> Shop</button>
                         </div>
                     </div>
-    
+
                     <div class="relative w-full">
                         <img src="../images/brooks-3.jpeg" alt="" class="w-full h-[550px] object-cover">
-    
+
                         <div class="absolute bottom-10 left-10 text-white">
-                            
-                            <h1 class="text-2xl">  Brooks's Off-Course Picks</h1>
+
+                            <h1 class="text-2xl"> Brooks's Off-Course Picks</h1>
                             <button class="bg-white text-black mt-5 px-4 py-1  rounded-full"> Shop</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
 
-<!-- popular -->
-    <div>
-        <div class="mx-auto max-w-[1536px] mt-8 px-4 flex justify-between items-center">
-            <h1 class="text-2xl"> Popular</h1>
-            <div class="flex gap-[3px]"> 
+
+        <!-- popular -->
+        <section class="w-full max-w-[1536px] mx-auto">
+
+            <div class="mx-auto max-w-[1536px] mt-8 px-4 flex justify-between items-center">
+                <h1 class="text-2xl"> Popular</h1>
+                <div class="flex gap-[3px]">
+
+                    <button id="popPre"
+                        class=" bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
+                            src="../images/left-chevron.png" alt="" class="w-[30px]"></button>
+                    <button id="popNext"
+                        class="bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
+                            src="../images/chevron.png" alt="" class="w-[30px]"></button>
+                </div>
+            </div>
+
+            <div class="w-full max-w-[1536px] mx-auto px-4 overflow-x-hidden mt-8 ">
                 
-                <button class=" bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                        src="../images/left-chevron.png" alt="" class="w-[30px]"></button>
-                <button class="bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                        src="../images/chevron.png" alt="" class="w-[30px]"></button>
-            </div>
-        </div>
-    </div>
-
-    <div class="w-full">
-        <div class="w-full max-w-[1536px] mx-auto  px-4">
-            <div class=" py-1 flex gap-3 overflow-x-scroll">
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular1.png" alt="" class="w-full h-full object-cover">
-                    </div>
-                    <h3 class="mt-4">Ja 1 "Day"></h3>
-                    <p>Basketball Shoes</p>
+                <div id="popularCard" class=" py-1 flex gap-3 overflow-x-scroll">
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular1.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Ja 1 "Day"></h3>
+                        <p>Basketball Shoes</p>
                         <p>$120</p>
-        
-                </div>
-        
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular2.png" alt="" class="w-full h-full object-cover">
+
                     </div>
-                    <h3 class="mt-4">Air Jordan 1 Retro High OG></h3>
-                    
-            
-                    <p> Men's Shoes</p>
+
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular2.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Air Jordan 1 Retro High OG></h3>
+                        <p> Men's Shoes</p>
                         <p> $180</p>
-        
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular3.png" alt="" class="w-full h-full object-cover">
+
                     </div>
-                    <h3 class="mt-4">Nike Dunk Low Retro </h3>
-                    <p> Men's Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular3.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Nike Dunk Low Retro </h3>
+                        <p> Men's Shoes</p>
                         <p>$115</p>
-        
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular4.png" alt="" class="w-full h-full object-cover">
+
                     </div>
-                    <h3 class="mt-4">Air Jordan 5 Retro SE"></h3>
-                    <p>Men's Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular4.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Air Jordan 5 Retro SE"></h3>
+                        <p>Men's Shoes</p>
                         <p>$210</p>
-        
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular5.png" alt="" class="w-full h-full object-cover">
+
                     </div>
-                    <h3 class="mt-4">Nike Vaporfly 3></h3>
-                    <p>Men's Road Racing Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular5.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Nike Vaporfly 3></h3>
+                        <p>Men's Road Racing Shoes</p>
                         <p>$260</p>
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular6.png" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3 class="mt-4">Nike Air Max Plus></h3>
-                    <p>Men's Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular6.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Nike Air Max Plus></h3>
+                        <p>Men's Shoes</p>
                         <p>$180</p>
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular7.png" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3 class="mt-4">Nike Zoom Vomero 5></h3>
-                    <p>Women's Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular7.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Nike Zoom Vomero 5></h3>
+                        <p>Women's Shoes</p>
                         <p>$160</p>
-                </div>
-                <div class="w-full">
-                    <div class="w-[400px] h-[400px]">
-                        <img src="../images/popular8.png" alt="" class="w-full h-full object-cover">
                     </div>
-                    <h3 class="mt-4">Nike Air Force 1 '07></h3>
-                    <p>Men's Shoes</p>
+                    <div id="popularImage" class="w-full">
+                        <div class="w-[400px] h-[400px]">
+                            <img src="../images/popular8.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="mt-4">Nike Air Force 1 '07></h3>
+                        <p>Men's Shoes</p>
                         <p>$115</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-<!-- Member -->
-        <div>
+
+
+        </section>
+
+
+
+        <!-- Member -->
+        <Section>
             <div class="mx-auto max-w-[1536px] mt-8 px-4 flex justify-between items-center">
                 <h1 class="text-2xl"> Member Benefits </h1>
                 <div class="flex gap-[3px]">
@@ -373,118 +365,124 @@
                             src="../images/chevron.png" alt="" class="w-[30px]"></button>
                 </div>
             </div>
-        </div>
+            <div class="">
+                <div class="w-full px-4 max-w-[1536px] mx-auto ">
+                    <div class="py-1 flex gap-3 overflow-x-scroll mt-5 ">
 
-        <div class="">
-            <div class="w-full px-4 max-w-[1536px] mx-auto ">
-                <div class="py-1 flex gap-3 overflow-x-scroll mt-5 ">
-                    
-                    <div class="relative w-full ">
-                        <div class="w-[400px] h-[500px]">
-                            <img src="../images/member1.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
-                        </div>
-                        <div class=" absolute bottom-10 left-10 max-w-md mx-auto md:max-w-2xl">
-                            <div class="  py-5 text-[#1e3934] text-[19px] ">
-                            
-                                <div class="mt-2">
-                                    <h5 class="text-white text-3xl">Member Product</h5>
-                                    <p class="text-white">Your Exclusive Access</p>
-                                    <button class="bg-white text-black mt-5 px-4 py-1  rounded-full"> Shop </button>
+                        <div class="relative w-full ">
+                            <div class="w-[400px] h-[500px]">
+                                <img src="../images/member1.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
+                            </div>
+                            <div class=" absolute bottom-10 left-10 max-w-md mx-auto md:max-w-2xl">
+                                <div class="  py-5 text-[#1e3934] text-[19px] ">
+
+                                    <div class="mt-2">
+                                        <h5 class="text-white text-3xl">Member Product</h5>
+                                        <p class="text-white">Your Exclusive Access</p>
+                                        <button class="bg-white text-black mt-5 px-4 py-1  rounded-full"> Shop </button>
+                                    </div>
+
                                 </div>
-
                             </div>
                         </div>
-                    </div>
-            
-            
-                    <div class="relative w-full">
-                        <div class="w-[400px] h-[500px] ">
-                            <img src="../images/members.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
-                        </div>
-                        <div class=" absolute bottom-10 left-10 max-w-md mx-auto md:max-w-2xl">
-                            <div class=" py-5 text-[#1e3934] text-[19px] ">
-                                
-                                
+
+
+                        <div class="relative w-full">
+                            <div class="w-[400px] h-[500px] ">
+                                <img src="../images/members.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
+                            </div>
+                            <div class=" absolute bottom-10 left-10 max-w-md mx-auto md:max-w-2xl">
+                                <div class=" py-5 text-[#1e3934] text-[19px] ">
+
+
                                     <div class="mt-2">
                                         <h5 class="text-black text-3xl">Sport and Welness Apps</h5>
                                         <p>Movement Where You're At</p>
-                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> Celaborate</button>
+                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full">
+                                            Celaborate</button>
                                     </div>
-                            
+
+                                </div>
                             </div>
+
                         </div>
-            
-                    </div>
-                    <div class="relative w-full">
-                        <div class="w-[400px] h-[500px]">
-                            <img src="../images/member3.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
-                        </div>
-                        <div class=" absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
-                            <div class=" py-5 text-[#1e3934] text-[19px] ">
-                                
-                                    
+                        <div class="relative w-full">
+                            <div class="w-[400px] h-[500px]">
+                                <img src="../images/member3.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
+                            </div>
+                            <div class=" absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
+                                <div class=" py-5 text-[#1e3934] text-[19px] ">
+
+
                                     <div class="mt-2">
                                         <h5 class="text-white text-3xl">Member Reward</h5>
                                         <p>How we say Thank You</p>
                                         <button class="bg-white text-black mt-5 px-4 py-1  rounded-full"> move</button>
                                     </div>
-                            
+
+                                </div>
                             </div>
+
                         </div>
-            
-                    </div>
-                    <div class="relative w-full">
-                        <div class="w-[400px] h-[500px]">
-                            <img src="../images/member5.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
-                        </div>
-                        <div class="absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
-                            <div class=" py-5 text-[#1e3934] text-[19px] ">
-                                
-                                    
+                        <div class="relative w-full">
+                            <div class="w-[400px] h-[500px]">
+                                <img src="../images/member5.jpeg" alt="" class="max-sm:w-full h-full   object-cover">
+                            </div>
+                            <div class="absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
+                                <div class=" py-5 text-[#1e3934] text-[19px] ">
+
+
                                     <div class="mt-2">
                                         <h5 class="text-white text-3xl">Nike By You</h5>
                                         <p>Your Customization Service</p>
-                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> Customize</button>
+                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full">
+                                            Customize</button>
                                     </div>
-                                
-                            </div>
-                        </div>
-            
-                    </div>
 
-                    <div class="relative w-full">
-                        <div class="w-[400px] h-[500px]">
-                            <img src="../images/member6.jpeg" alt="" class="max-sm:w-full h-full  object-cover">
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
-                            <div class=" py-5 text-[#1e3934] text-[19px] ">
-                                
-                                    
+
+                        <div class="relative w-full">
+                            <div class="w-[400px] h-[500px]">
+                                <img src="../images/member6.jpeg" alt="" class="max-sm:w-full h-full  object-cover">
+                            </div>
+                            <div class="absolute bottom-10 left-10  max-w-md mx-auto md:max-w-2xl">
+                                <div class=" py-5 text-[#1e3934] text-[19px] ">
+
+
                                     <div class="mt-2">
                                         <h5 class="text-white text-3xl">SNKRS</h5>
                                         <p>Your Ultimate Sneaker Community</p>
-                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> Explore</button>
+                                        <button class="bg-black text-white mt-5 px-4 py-1  rounded-full">
+                                            Explore</button>
                                     </div>
-                                
+
+                                </div>
                             </div>
+
                         </div>
-            
                     </div>
                 </div>
             </div>
-        </div>
 
-</section>
-<footer class="footer-layout"></footer>
-<!--  -->
-<!-- call footer from component layout by class--> 
+        </Section>
+
+
+
+
+    </section>
+    <footer class="footer-layout"></footer>
+    <!--  -->
+    <!-- call footer from component layout by class-->
 
 </body>
 
 <!-- script link component home page -->
 <script type="module" src="../scripts/navbar.js"></script>
 <script type="module" src="../scripts/footer.js"></script>
-
+<script src="../scripts/men.js"></script>
 
 </html>
 

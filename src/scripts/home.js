@@ -1,4 +1,4 @@
-// get element with id
+// Trending Section
 const prevBTN = document.querySelector("#prev-btn");
 const nextBTN = document.querySelector("#next-btn");
 const cardContainer = document.querySelector("#card-container");
@@ -23,41 +23,43 @@ function prevImage() {
     }
 }
 
+
 function updateSlider() {
     const offset = -currentIndex * 517; // Adjust this value as needed
     cardContainer.style.transform = `translateX(${offset}px)`;
 }
 
+
 prevBTN.addEventListener("click", prevImage)
 nextBTN.addEventListener("click", nextImage)
 
+// Classic Soprt slider
 
-// // trending slider
-// const prevBTN = document.querySelector("#prev-btn");
-// const nextBTN = document.querySelector("#next-btn");
-// const sliderContainer = document.querySelector("#slider");
-// const cardSlider = document.querySelectorAll("#card-slider");
+const pBtn = document.querySelector("#pBtn");
+const nBtn = document.querySelector("#nBtn");
+const classCard = document.querySelector("#classCard");
+const classImage = document.querySelectorAll("#classImage");
 
-// let currentIndex = 0;
 
-// function nextSlide() {
-//   if (currentIndex < 2) {
-//     currentIndex = (currentIndex + 1) % cardSlider.length;
-//     updateSlider();
-//   }
-// }
+currentIndex = 0;
 
-// function prevSlide() {
-//   if (currentIndex > 0) {
-//     currentIndex =
-//       (currentIndex - 1 + cardSlider.length) % cardSlider.length;
-//     updateSlider();
-//   }
-// }
+function classNext(){
+    if (currentIndex < 2){
+        currentIndex = (currentIndex + 1) % classImage.length;
+           classupdateSlider()
+    }
+}
+function classPrev() {
+    if (currentIndex > 0) {
+        currentIndex = (currentIndex - 1 + classImage.length) % classImage.length;
+        classupdateSlider()
+        // 0 = (0 - 1 + 5) % 5 = 4
+    }
+}
 
-// function updateSlider() {
-//   const offset = -currentIndex * 538; // Adjust this value as needed
-//   sliderImg.style.transform = translateX(${offset}px);
-// }
-// prevBTN.addEventListener("click", prevSlide);
-// nextBTN.addEventListener("click", nextSlide);
+function classupdateSlider() {
+    const offset = -currentIndex * 285; // Adjust this value as needed
+    classCard.style.transform = `translateX(${offset}px)`;
+}
+pBtn.addEventListener("click", classPrev)
+nBtn.addEventListener("click", classNext)

@@ -31,40 +31,68 @@ menNext.addEventListener("click", classNextImage)
 
 
 // Populartion  Section
-const popBtnPre =document.querySelector('#popPre')
-const popBtnNext =document.querySelector('#popNext')
-const popCard =document.querySelector('#popularCard')
-const popImage =document.querySelectorAll('#popularImage')
 
-currentIndex=0;
+const popularCard = document.getElementById('popularCard');
+const popPre = document.getElementById('popPre');
+const popNext = document.getElementById('popNext');
 
-function popNext(){
-    if (currentIndex < 4){
-        currentIndex = (currentIndex + 1) % popImage.length;
-           Update()
+let scrollWidth = popularCard.scrollWidth;
+let clientWidth = popularCard.clientWidth;
+let scrollLeft = popularCard.scrollLeft;
+
+popPre.addEventListener('click', () => {
+    scrollLeft -= clientWidth;
+    if (scrollLeft < 0) {
+        scrollLeft = 0;
     }
+    popularCard.scrollTo({
+        left: scrollLeft,
+        behavior: 'smooth'
+    });
+});
 
-}
-function popPre(){
-    if (currentIndex > 0) {
-        currentIndex = (currentIndex - 1 + popImage.length) % popImage.length;
-        Update()
-
+popNext.addEventListener('click', () => {
+    scrollLeft += clientWidth;
+    if (scrollLeft > scrollWidth - clientWidth) {
+        scrollLeft = scrollWidth - clientWidth;
     }
-
-}
-function Update() {
-    const offset = -currentIndex * 415; // Adjust this value as needed
-   popCard.style.transform = `translateX(${offset}px)`;
-}
-popBtnPre.addEventListener("click", popPre)
-popBtnNext.addEventListener("click", popNext)
+    popularCard.scrollTo({
+        left: scrollLeft,
+        behavior: 'smooth'
+    });
+});
 
 
 // Members
+const memCardContainer = document.getElementById("Memcard");
+const memImages = document.querySelectorAll("#memImage");
+const memPreBtn = document.getElementById("memPreBtn");
+const memNextBtn = document.getElementById("memNextBtn");
+currentIndex = 0;
+
+function memNext() {
+    if (currentIndex < 1) {
+        currentIndex = (currentIndex + 1) % memImages.length;
+        Slider()
+    }
+
+}
+
+function memPrev() {
+    if (currentIndex > 0) {
+        currentIndex = (currentIndex - 1 + memImages.length) % memImages.length;
+        Slider()
+    }
+}
+
+function Slider() {
+    const offset = -currentIndex * 540; // Adjust this value as needed
+    memCardContainer.style.transform = `translateX(${offset}px)`;
+}
 
 
-
+memPreBtn.addEventListener("click",  memPrev)
+memNextBtn.addEventListener("click", memNext)
 
 
 

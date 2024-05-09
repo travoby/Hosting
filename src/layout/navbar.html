@@ -1,12 +1,12 @@
 <!-- Header -->
-<div class=" relative z-[100] bg-gray-100 sm:block hidden">
-    <div class="max-w-[1536px] mx-auto p-4">
-        <div class="flex justify-between">
-            <div class="flex items-center">
+<div class=" relative z-[100] bg-gray-100 md:block hidden">
+    <div class="max-w-[1536px] mx-auto  py-2">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center px-4">
                 <a href=""> <img src="../images/jordan.png" class="w-[30px] object-cover hover:opacity-50"></a>
                 <a href=""><img src="../images/Converse-logo.png" class="w-[40px] object-cover hover:opacity-50"></a>
             </div>
-            <div class=" divide-x  divide-black font-medium text-sm ">
+            <div class="  px-4 divide-x  divide-black  text-[12px] justify-center items-center ">
                 <a href="" class=" items-center p-2"> Find a Store</a>
                 <a href="" class="items-center p-2"> Help</a>
                 <a href="" class="items-center p-2"> Join Us</a>
@@ -17,9 +17,123 @@
 </div>
 
 
+
+
+
+
+<div class=" relative z-[100] bg-white">
+
+        <div class=" max-w-[1536px] mx-auto p-4">
+            <div class="flex justify-between  ">
+                <a href="../pages/home.html"><img src="../images/nike1.png"
+                        class="min-w-[80px] w-[80px] flex justify-self-center flex-nowrap"></a>
+           
+                    <div id="menu" class="flex space-x-4 justify-center items-center text-center flex-wrap  gap-11">
+                        <ul class=" space-x-4 justify-center text-center  md:flex hidden">
+                            <li id="new-btn">
+                                <button class=" hover:underline "><a href="../pages/home.html">New & Feature</a></button>
+        
+                            </li>
+                            <li id="men-btn">
+                                <button class="hover:underline "><a href="../pages/men.html">Men</a></button>
+                            </li>
+                            <li id="women-btn">
+                                <button class="hover:underline "><a href="../pages/women.html">Women</a></button>
+                            </li>
+                            <li id="kid-btn">
+                                <button class="hover:underline "><a href="../pages/kid.html">Kids</a></button>
+                            </li>
+                            <li id="sale-btn">
+                                <button class="hover:underline "><a href="../pages/sale.html">Sale</a></button>
+                            </li>
+                        </ul>
+                        
+                    </div>
+        
+                    <div class=" flex items-center relative gap-2">
+                        <div class="items-center md:flex  hidden">
+                            <img src="../images/search-interface-symbol.png" alt="" class="w-[20px] absolute left-3">
+                            <input type="text" class="border rounded-full py-[3px] focus:outline-none pl-10 bg-gray-100"
+                                placeholder="search">
+                        </div>
+        
+                        <div class="flex items-center gap-2">
+                            <a href="#"><img src="../images/search-interface-symbol.png" class="md:hidden block min-w-[25px] w-[25px]" alt=""></a>
+                            <a href="#"><img src="../images/like.png" alt="" class="min-w-[25px] w-[25px]"></a>
+                            <a href="#"><img src="../images/market.png" alt="" class="min-w-[25px] w-[25px]"></a>
+                        </div>
+
+                        <button class="menu-button max-w-5 flex items-center py-5 md:hidden " id="menuButton">
+                            <!-- Hamburger icon or menu icon -->
+                            <span class="menu-icon" id="menuIcon">
+                              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" alt="Menu">
+                            </span>
+                        </button>
+        
+                    </div>
+                    
+                    
+    
+            </div>
+        </div>
+    
+    
+</div> 
+<!-- sidebar -->
+<div id="minMenuDropdown" class="bg-white duration-300 w-[80%] md:invisible h-screen fixed right-[-100%] z-40">
+
+    <div class="flexflex-col">
+        <ul class="flex flex-col text-xl ">
+            <li><a class="px-8 py-4 block" href="../pages/home.html">New & Feature</a></li>
+            <li><a class="px-8 py-4 block " href="../pages/men.html">Men</a></li>
+            <li><a class="px-8 py-4 block " href="../pages/women.html">Women</a></li>
+            <li><a class="px-8 py-4 block " href="../pages/kid.html">Kids</a></li>
+            <li><a class="px-8 py-4 block " href="../pages/kid.html">Sales</a></li>
+        </ul>
+        <hr class="mx-8 my-4">
+        <div class="mx-8 my-4 ">
+            <div class="flex  py-3 gap-4">
+                <img src="../images/jordan.png" class="w-[30px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Jordan</p>
+            </div>
+            <div class="flex  items-start py-3 gap-3">
+                <img src="../images/Converse-logo.png" class="w-[40px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Converse</p>
+            </div>
+            <div class=" gap-4 items-center text-md ">
+                    <p class="">Become a Nike Member for the best products, inspiration and stories in sport. <strong>Learn more</strong> </p>
+                    <div class="flex gap-4 py-3"> 
+                        <a href="" class="h-3 p-4 items-center flex justify-center text-white  bg-black hover:bg-gray-600 rounded-full">Join Us</a> 
+                        <a href="" class="h-3 p-4 items-center flex justify-center rounded-full outline outline-1 hover:bg-gray-200 ">Sign In</a>
+                        
+                    </div>
+                  
+                
+            </div>
+            <div class="flex  items-start py-3 mt-10 gap-3 ">
+                <img src="../images/market.png" class="w-[30px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Bag</p>
+            </div>
+            <div class="flex  items-start py-3 gap-3">
+                <img src="../images/market.png" class="w-[30px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Order</p>
+            </div>
+            <div class="flex items-start   py-3 gap-3">
+                <img src="../images/market.png" class="w-[30px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Find Store</p>
+            </div>
+            <div class="flex items-start  py-3 gap-3">
+                <img src="../images/market.png" class="w-[30px] object-cover hover:opacity-50" alt="">
+                <p class="font-semibold">Help</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <!-- Nav Bar Hover -->
 
-<div id="list-container-new" class="fixed top-[-100%] z-[100] bg-white mx-auto w-full duration-300 ">
+<div id="list-container-new" class="absolute top-[-100%] z-[1000] bg-white mx-auto w-full duration-300 ">
     <div class="max-w-[1000px] mx-auto">
         <div class="grid grid-cols-2 gap-5 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
@@ -206,91 +320,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-<div>
-
-    <div class=" relative z-[100] bg-white">
-
-        <div class=" max-w-[1536px] mx-auto p-4">
-            <div class="flex justify-between  ">
-                <a href="../pages/home.html"><img src="../images/nike1.png"
-                        class="min-w-[80px] w-[80px] flex justify-self-center flex-nowrap"></a>
-                <div class="flex space-x-4 justify-center items-center text-center flex-wrap  gap-11">
-                    <ul class="flex space-x-4 justify-center text-center ">
-                        <li id="new-btn">
-                            <button class=" hover:underline "><a href="../pages/home.html">New & Feature</a></button>
-    
-                        </li>
-                        <li id="men-btn">
-                            <button class="hover:underline "><a href="../pages/men.html">Men</a></button>
-                        </li>
-                        <li id="women-btn">
-                            <button class="hover:underline "><a href="../pages/women.html">Women</a></button>
-                        </li>
-                        <li id="kid-btn">
-                            <button class="hover:underline "><a href="../pages/kid.html">Kids</a></button>
-                        </li>
-                        <li id="sale-btn">
-                            <button class="hover:underline "><a href="../pages/sale.html">Sale</a></button>
-                        </li>
-                    </ul>
-                    
-                </div>
-    
-                <div class=" flex items-center relative gap-2">
-                    <div class="flex items-center">
-                        <img src="../images/search-interface-symbol.png" alt="" class="w-[20px] absolute left-3">
-                        <input type="text" class="border rounded-full py-[3px] focus:outline-none pl-10 bg-gray-100"
-                            placeholder="search">
-                    </div>
-    
-                    <div class="flex items-center gap-2">
-                        <a href="#"><img src="../images/like.png" alt="" class="min-w-[25px] w-[25px]"></a>
-                        <a href="#"><img src="../images/market.png" alt="" class="min-w-[25px] w-[25px]"></a>
-                    </div>
-    
-                </div>
-    
-            </div>
-        </div>
-    </div>
-    <button class="menu-button max-w-5 flex items-center md:hidden " id="menuButton">
-        <!-- Hamburger icon or menu icon -->
-        <span class="menu-icon" id="menuIcon">
-          <img src="../../images/layout/menu.png" alt="Menu">
-        </span>
-    </button>
-    
-</div> 
-<!-- sidebar -->
-<div id="minMenuDropdown" class="bg-white duration-300 w-[80%] md:invisible h-screen fixed right-[-100%] z-40">
-    <div class="flex mt-10 flex-col">
-        <ul class="flex flex-col text-xl ">
-            <li><a class="px-8 py-4 block" href="../../pages/home/home.html">Menu</a></li>
-            <li><a class="px-8 py-4 block " href="../../pages/reward/reward.html">Rewards</a></li>
-            <li><a class="px-8 py-4 block " href="../../pages/gift-card/gift-card.html">Gift Cards</a></li>
-        </ul>
-        <hr class="mx-8 my-4">
-        <div class="mx-8 my-4">
-            <div class="flex gap-4 items-center text-md font-bold">
-                <a href="../../pages/log-in/log-in.html" class="h-3 p-4 items-center flex justify-center rounded-full outline outline-1 hover:bg-gray-200 ">Sign in</a>
-                <a href="../../pages/join-now/join-now.html" class="h-3 p-4 items-center flex justify-center text-white  bg-black hover:bg-gray-600 rounded-full">Join now</a>
-        </div>
-            <div class="flex manrope-sans font-semibold text-md items-center mt-4">
-                <a class="flex items-center gap-2 hover:text-green-700  " href="../../pages/find-a-store/find-a-store.html">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Find a Store</p>
-                    </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
 
 
 <!-- layout -->

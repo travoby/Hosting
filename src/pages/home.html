@@ -27,14 +27,14 @@
     <!-- body write here -->
     <!-- section1 -->
     <div>
-        <img src="../images/nike-just-do-it.jpg" alt="" class="w-full h-[700px] object-cover">
-        <img src="../" alt="">
+        <img src="../images/nike-just-do-it.jpg" alt="" class="w-full max-md:hidden block ">
+        <img src="../images/homerespon.jpeg" alt="" class="max-md:block hidden">
     </div>
 
     <!-- content -->
     <div class="mx-auto max-w-[800px] mt-8 px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-            <p>Brook's Looks</p>
+            <p class="text-3xl">Brook's Looks</p>
             <h1 class="text-[50px] font-semibold">GEAR-UP FOR <br>THE MAJORS</h1>
             <p class="my-4">How the golf sensation is gearing up for this season's major and beyoend.</p>
             <button class="bg-black text-white px-6 py-2 rounded-full">Shop the Collection</button>
@@ -108,7 +108,7 @@
     <div class="">
         <div class="max-w-[1536px] mx-auto px-4 overflow-x-scroll mt-10">
             <h1 class="text-2xl">Featured</h1>
-            <div class="flex gap-3 mt-8 max-sm:flex-col text-[15px]">
+            <div class="flex gap-3 mt-8 max-md:flex-col text-[15px] ">
                 <div class="relative">
                     <img src="../images/nike-just-do-it(5).jpg" alt="" class="w-full h-full object-cover">
 
@@ -133,14 +133,14 @@
 
 
     <!-- section 4 -->
-    <Section class="max-w-[1536px] mx-auto mt-10 ">
-        <h1 class="text-2xl font-medium">Classic by Sportlight</h1>
-        <div class=" relative  flex items-center ">
+    <Section class="max-w-[1536px] relative mx-auto mt-10  overflow-x-hidden">
+        <h1 class="text-2xl font-medium px-4">Classic by Sportlight</h1>
+        <div class=" e  flex items-center ">
 
             <button id="pBtn" class="absolute z-40 left-5"> <img src="../images/left-chevron.png" alt=""
                     class="w-[30px]"> </button>
-            <button id="nBtn" class="absolute z-40 right-0"><img src="../images/chevron.png" alt=""
-                    class="w-[30px]"></button>
+            <button id="nBtn" class="absolute z-40 right-3"><img src="../images/chevron.png" alt=""
+                    class="w-[30px] "></button>
             <div class="px-4  mt-6  ">
 
                 <div id="classCard" class=" flex mt-8   duration-200">
@@ -259,6 +259,7 @@
 
     <!--  -->
     <!-- call footer from component layout by class-->
+    <subfooter class="subfooter-layout"></subfooter>
     <footer-layout class="footer-layout"></footer>
 
 </body>
@@ -267,5 +268,6 @@
 <script type="module" src="../scripts//navbar.js"></script>
 <script type="module" src="../scripts/footer.js"></script>
 <script src="../scripts/home.js"></script>
+<script src="../scripts/subfooter.js"></script>
 
 </html>

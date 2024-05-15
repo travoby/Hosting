@@ -1,5 +1,5 @@
 REVIEWBOARD_URL = "https://review.clp.kr/"
 REPOSITORY = "Hexcode/Van-Sopheaktra/Nike-Clone"
 REPOSITORY_TYPE = "git"
-BRANCH = "feature/women-page"
-LAND_DEST_BRANCH = "feature/women-page"
+BRANCH = "develop"
+LAND_DEST_BRANCH = "develop"

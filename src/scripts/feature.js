@@ -38,7 +38,7 @@ const featureCardArr = [{
     btn:"Shop"
 },
 ]
-class FeatureCard extends HTMLElement {
+ export class FeatureCard extends HTMLElement {
     constructor() {
         super()
     }

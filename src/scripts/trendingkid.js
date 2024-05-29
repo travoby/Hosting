@@ -1,5 +1,5 @@
 
-const createTrending = (arr) => {
+const createTrendingKid = (arr) => {
     return `
     <div class="">
         <div class="max-w-[1536px] mx-auto overflow-x-scroll mt-10 ">
@@ -25,7 +25,7 @@ const createTrending = (arr) => {
     `
 }
 
-const trendingCardArr = [{
+const trendingKidCardArr = [{
     title: "What's Limit?",
     img: "../images/kid-trend1.jpeg",
     content:"Serena Williams Design Crew Collection",
@@ -38,13 +38,13 @@ const trendingCardArr = [{
     btn:"Shop"
 },
 ]
-class TrendingCard extends HTMLElement {
+export class TrendingKidCard extends HTMLElement {
     constructor() {
         super()
     }
     connectedCallback() {
-        this.innerHTML = createTrending(trendingCardArr)
+        this.innerHTML = createTrendingKid(trendingKidCardArr)
     }
 }
 
-customElements.define('trending-card', TrendingCard);
+customElements.define('trendingKid-card', TrendingKidCard);

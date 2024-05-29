@@ -1,5 +1,4 @@
 
-
 const createShop = (arr) => {
     return `
     <div class="pt-5">
@@ -28,7 +27,7 @@ const createShop = (arr) => {
     </div>
     ` 
 }
-const ShopCardArr = [{
+const shopCardArr = [{
     title: "Clothing",
     img: "../images/men2.jpeg",
     content:"The Seasons latest must-haves."
@@ -44,12 +43,12 @@ const ShopCardArr = [{
     content:"From hats to sports equipment & beyond."
 },
 ]
-class ShopCard extends HTMLElement {
+export class ShopCard extends HTMLElement {
     constructor() {
         super()
     }
     connectedCallback() {
-        this.innerHTML = createShop(ShopCardArr)
+        this.innerHTML = createShop(shopCardArr)
     }
 }
 

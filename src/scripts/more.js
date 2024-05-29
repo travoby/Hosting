@@ -23,22 +23,22 @@ const createMore = (arr) => {
     ` 
 }
 const MoreCardArr = [{
-    title: "New from Nike Runing",
-    img: "../images/kid-more1.jpeg",
+    title: "Spring Golf Essentials",
+    img: "../images/women-13.png",
     btn:"Shop"
 },
 {
     title: 'Killshot from Day to Night',
-    img: "../images/kid-more2.jpeg",
+    img: "../images/member-14.jpeg",
     btn:"Shop"
 },
 {
     title: 'Spring Golf Essentials',
-    img: "../images/kid-more3.jpeg",
+    img: "../images/women15.jpeg",
     btn:"Shop"
 },
 ]
-class MoreCard extends HTMLElement {
+export class MoreCard extends HTMLElement {
     constructor() {
         super()
     }

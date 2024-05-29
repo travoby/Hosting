@@ -36,7 +36,7 @@ const brookCardArr = [{
     btn: "Shop"
 },
 ]
-class BrookCard extends HTMLElement {
+export class BrookCard extends HTMLElement {
     constructor() {
         super()
     }

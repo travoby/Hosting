@@ -1,9 +1,9 @@
 
-const createTrending = (arr) => {
+const createTrendingWomen = (arr) => {
     return `
     <div class="">
         <div class="max-w-[1536px] mx-auto overflow-x-scroll mt-10 ">
-            <h1 class="text-2xl ">Trending</h1>
+            <h1 class="text-2xl ">TrendingWomen</h1>
             <div class="flex  gap-3 mt-8 flex-col md:flex-row">
     ${arr.map((item) => {
         return `
@@ -25,7 +25,7 @@ const createTrending = (arr) => {
     `
 }
 
-const trendingCardArr = [{
+const trendingWomenCardArr = [{
     title: "What's Limit?",
     img: "../images/trend1.jpeg",
     content:"Serena Williams Design Crew Collection",
@@ -38,13 +38,13 @@ const trendingCardArr = [{
     btn:"Shop"
 },
 ]
-class TrendingCard extends HTMLElement {
+export class TrendingWomenCard extends HTMLElement {
     constructor() {
         super()
     }
     connectedCallback() {
-        this.innerHTML = createTrending(trendingCardArr)
+        this.innerHTML = createTrendingWomen(trendingWomenCardArr)
     }
 }
 
-customElements.define('trending-card', TrendingCard);
+customElements.define('trendingwomen-card', TrendingWomenCard);

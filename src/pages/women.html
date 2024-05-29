@@ -102,60 +102,11 @@
         </div>
 
         <!-- shop -->
-        <section>
-            <div class="mx-auto max-w-[1536px] mt-8 flex justify-between items-center">
-                <h1 class="text-2xl"> Shop the Essebtail</h1>
-                <div class="flex gap-[3px]" id="btn-shop">
-                    <button id="shopPre"
-                        class=" bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                            src="../images/left-chevron.png" alt="" class="w-[30px]"></button>
-                    <button id="shopNext"
-                        class="bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                            src="../images/chevron.png" alt="" class="w-[30px]"></button>
-                </div>
-            </div>
 
-            <div class="w-full max-w-[1536px] mx-auto ">
-                <div id="scrollWomen" class="  flex gap-3 overflow-x-scroll mt-5">
-                    <div id="imageShop" class="w-full">
-                        <div class="w-[500px] h-[500px]">
-                            <img src="../images/women-2.jpeg" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 text-[20px] ">Clothing</h3>
-                    </div>
-
-                    <div id="imageShop" class="w-full">
-                        <div class="w-[500px] h-[500px]">
-                            <img src="../images/women-3.jpeg" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 text-[20px]">Shoes</h3>
-
-                    </div>
-                    <div id="imageShop" class="w-full">
-                        <div class="w-[500px] h-[500px]">
-                            <img src="../images/women-4.jpeg" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 text-[20px]">Accessories </h3>
-
-                    </div>
-                    <div id="imageShop" class="w-full">
-                        <div class="w-[500px] h-[500px]">
-                            <img src="../images/women-5.jpeg" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 text-[20px]">Bras & Leggings</h3>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-
-        </section>
+        <shopwomen-carousel></shopWomen-carousel>
         <!-- Trending -->
-
-    
-        <trendingKid-card></trendingKid-card>
+       
+        <trendingwomen-card></trendingwomen-card>
 
         <!-- Classic -->
         <classic-carousel></classic-carousel>
@@ -164,110 +115,8 @@
         <more-card></more-card>
 
         <!-- popular -->
-        
-        <!-- <section>
-            <div class="mx-auto max-w-[1536px] mt-8 px-4 flex justify-between items-center">
-                <h1 class="text-2xl"> Popular Right Now</h1>
-                <div class="flex gap-[3px] items-center">
-                    <h1>Shop All</h1>
-                    <button id="popularPre"
-                        class=" bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                            src="../images/left-chevron.png" alt="" class="w-[30px]"></button>
-                    <button id="popularNext"
-                        class="bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                            src="../images/chevron.png" alt="" class="w-[30px]"></button>
-                </div>
-            </div>
 
-
-            <div>
-                <div class="max-w-[1536px] mx-auto px-4   mt-8">
-                    <div class=" flex mt-8  ">
-                        <div id="pop-Card" class="flex  gap-5 overflow-x-scroll">
-
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular1.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Free Metcon 5></h3>
-                                <p class=" text-[#707072]">Women's Workout Shoes</p>
-                                <p>$120</p>
-
-                            </div>
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular2.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Killshot 2</h3>
-                                <p class=" text-[#707072]">Women's Shoes</p>
-                                <p>$90</p>
-
-                            </div>
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular3.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Air VaporMax Plus</h3>
-                                <p class=" text-[#707072]">Women's Shoes</p>
-                                <p>$210</p>
-
-                            </div>
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular4.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike V2K Run</h3>
-                                <p class=" text-[#707072]">Shoes</p>
-                                <p>$110</p>
-
-                            </div>
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular5.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Invincible 3 </h3>
-                                <p class=" text-[#707072]">women's Road Runing Shoes</p>
-                                <p>$180</p>
-
-                            </div>
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular6.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Air Max 90 LV8</h3>
-                                <p class=" text-[#707072]">womwn's Shoes</p>
-                                <p>$150</p>
-
-                            </div>
-
-                            <div class="w-full">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular7.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Gamma Force</h3>
-                                <p class=" text-[#707072]">Women's Shoes</p>
-                                <p>$95</p>
-
-                            </div>
-                            <div class="w-full ">
-                                <div class="w-[400px] h-[400px]">
-                                    <img src="../images/w-popular8.png" alt="" class="w-full h-full object-cover">
-                                </div>
-                                <h3 class="mt-4 font-semibold">Nike Vaporfly</h3>
-                                <p class=" text-[#707072]">Women's Road Racing Shoes</p>
-                                <p>$260</p>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-    
-        <popular-carousel></popular-carousel>
+        <popularwomen-carousel></popularwomen-carousel>
         <member-carousel></member-carousel>
         <subfooter class="subfooter-layout"></subfooter>
         <footer class="footer-layout"></footer>
@@ -280,11 +129,14 @@
 <!-- script link component home page -->
 
 
-
+<script src="../scripts/women/shopwomen.js"></script>
 <script type="module" src="../scripts/navbar.js"></script>
 <script src="../scripts/subfooter.js"></script>
 <script type="module" src="../scripts/footer.js"></script>
+<script src="../scripts/women/popular.js"></script>
 <script type="module" src="../scripts/layout.js"></script>
+<script src="../scripts/women/trendingwomen.js"></script>
+
 
 
 

@@ -7,5 +7,5 @@ import { MoreCard } from "./more.js";
 import { BrookCard } from "./brook.js";
 import { ShopCard } from "./shop.js";
 import { FeatureCard } from "./feature.js";
-import { TrendingKidCard } from "./trendingkid.js";
-import { TrendingWomenCard } from "./trendingwomen.js";
+
+

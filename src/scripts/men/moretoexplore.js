@@ -1,8 +1,8 @@
- export const createSize = (arr) => {
+ const createMoreTo = (arr) => {
     return `
     <div>
         <div class="mx-auto max-w-[1536px] mt-8">
-            <h1 class="text-3xl font-medium px-4">Size for All</h1>
+            <h1 class="text-3xl font-medium px-4">More To Explore</h1>
         </div>
         <div class="mx-auto max-w-[1536px] mt-8 px-4 ">
             <div class=" columns-2 max-md:flex flex-col">
@@ -15,7 +15,6 @@
                     <div class="  py-5  ">
                         <div class="mt-2 ">
                             <h5 class="text-black text-3xl">${item.title}</h5>
-                            <p class="text-black py-5">${item.content} </p>
                             <button class="bg-black text-white mt-5 px-4 py-1  rounded-full"> ${item.btn} </button>
                         </div>
 
@@ -29,39 +28,38 @@
     </div>
     ` 
 }
-const sizeCardArr = [{
-    title: "Big kid-size2",
-    img: "../images/kid-size1.jpeg",
-    content:"Explore apparel (XS-XL) and shoes (3.5-7Y).",
+const moreToCardArr = [{
+    title: "Features Footerwear: Dunks",
+    img: "../images//menmore.jpeg",
+
     btn:"Shop"
 },
 {
-    title: "Big kid-size2",
-    img: "../images/kid-size3.jpeg",
-    content:"Explore apparel (XS-XL) and shoes (3.5-7Y).",
+    title: "Versatile Workout Styles",
+    img: "../images/menmore3.jpeg",
+
     btn:"Shop"
 },
 {
-    title: "Big kid-size2",
-    img: "../images/kid-size2.jpeg",
-    content:"Explore apparel (XS-XL) and shoes (3.5-7Y).",
+    title: "Running Essentails",
+    img: "../images/menmore2.jpeg",
+
     btn:"Shop"
 },
 {
-    title: "Big kid-size2",
-    img: "../images/kis-size4.jpeg",
-    content:"Explore apparel (XS-XL) and shoes (3.5-7Y).",
+    title: "Nike Fleece For Spring",
+    img: "../images/menmore4.jpeg",
     btn:"Shop"
 },
 
 ]
- export class SizeCard extends HTMLElement {
+ class MoreToCard extends HTMLElement {
     constructor() {
         super()
     }
     connectedCallback() {
-        this.innerHTML = createSize(sizeCardArr)
+        this.innerHTML = createMoreTo(moreToCardArr)
     }
 }
 
-customElements.define('size-card',SizeCard);
+customElements.define('moreto-card',MoreToCard);

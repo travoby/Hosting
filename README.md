@@ -10,12 +10,13 @@ The main objective of this project is to replicate the user interface, features,
 - [Contact](#contact)
 
 ##  Project Overview
-    This project includes the following pages cloned from the Nike website:
+    This project includes the following 4 pages cloned from the Nike website:
 
 1. Home Page
 2. Men Page
 3. Women Page
 4. Kids Page
+
 ** Link to Deploy ** - []
 
 ##  How to Use
@@ -36,10 +37,11 @@ The main objective of this project is to replicate the user interface, features,
 - HTML
 - JavaScript
 - Tailwind CSS
+[Notion Note](https://turquoise-soarer-c54.notion.siteVan-Sopheaktra-Notion-Note-f08331314a9b44189b7023f0b50f4524)
 
 ## Contributing
 Contributions are welcome! If you would like to contribute, please follow these steps:
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/89925541/324228564-6be663ee-6f13-4466-92af-33aa549eb189.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240530%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240530T060050Z&X-Amz-Expires=300&X-Amz-Signature=436a4a6d7e9c94f9c48dcb2732f268ee08a21c0d97b583cfb443c91792ba24f7&X-Amz-SignedHeaders=host&actor_id=163325185&key_id=0&repo_id=777100563)
+[image](../vansopheaktra-nike-clone/src/images/gitflow.png)
 
 
 Understanding Git-Flow

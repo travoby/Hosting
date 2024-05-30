@@ -1,93 +1,357 @@
 # VanSopheaktra Nike Clone
+The main objective of this project is to replicate the user interface, features, and content of Nike.com website  while customizing certain elements to meet the requirements of the original website. 
 
+## Table of Content
 
+- [Project Overview](#project-overview)
+- [How to Use](#use)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-## Getting started
+##  Project Overview
+    This project includes the following pages cloned from the Nike website:
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. Home Page
+2. Men Page
+3. Women Page
+4. Kids Page
+** Link to Deploy ** - []
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+##  How to Use
 
-## Add your files
+1. Clone the repository:
+    ```bash
+    git clone https://git.clp.kr/anbschool/2nd/hexcode/van-sopheaktra/vansopheaktra-nike-clone.git
+    ```
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+2. Navigate to the project directory:
+    ```bash
+    cd vansopheaktra-nike-clone
+    ```
 
-```
-cd existing_repo
-git remote add origin https://git.clp.kr/anbschool/2nd/hexcode/van-sopheaktra/vansopheaktra-nike-clone.git
-git branch -M main
-git push -uf origin main
-```
+3. Open the `src/page/home.html` file in your browser to view the project.
 
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.clp.kr/anbschool/2nd/hexcode/van-sopheaktra/vansopheaktra-nike-clone/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Technology Used
+- HTML
+- JavaScript
+- Tailwind CSS
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+Contributions are welcome! If you would like to contribute, please follow these steps:
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/89925541/324228564-6be663ee-6f13-4466-92af-33aa549eb189.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240530%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240530T060050Z&X-Amz-Expires=300&X-Amz-Signature=436a4a6d7e9c94f9c48dcb2732f268ee08a21c0d97b583cfb443c91792ba24f7&X-Amz-SignedHeaders=host&actor_id=163325185&key_id=0&repo_id=777100563)
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Understanding Git-Flow
+This is a git branching strategy diagram. The diagram shows a main branch, develop branch, and feature branches. The feature branches are branched off from the develop branch. The develop branch is branched off from the main branch. The feature branches are merged into the develop branch. The develop branch is merged into the main branch. The main branch is tagged with a version number.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
 
-## License
-For open source projects, say how it is licensed.
+Git-Flow Branching Strategy
+The Git-Flow branching strategy is designed to manage feature development, bug fixes, and releases in a structured manner. It involves several types of branches:
+Main Branch:
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+The main branch represents the stable version of the codebase. It contains production code.
+Developers should avoid making changes to the main branch.
+
+Feature Branches:
+
+When working on a new feature or bug fix, developers create a feature branch from the main branch.
+
+
+Each feature branch focuses on a specific task, issue or feature.
+
+
+Developers collaborate and make changes on their own feature branches.
+
+Development (Develop) Branch:
+
+Once a feature is complete, it is merged into the development branch.
+The development branch waits for upcoming releases.
+
+Release Branches:
+
+QA testing, bug fixes, and final adjustments occur in the release branch.
+Once everything is stable, the release branch is merged back into both master and development branches.
+
+Bugfix Branch:
+
+A bugfix branch is created specifically to address bugs, defects, or critical issues in the codebase.
+It allows developers to work on fixing a specific problem without affecting other ongoing development work.
+
+Hotfix Branch:
+
+In case of bugs of security issues in the production code, a hotfix branch is created from the main branch.
+After testing, the hotfix branch is merged back into both main and develop.
+
+
+
+Git Flow Scenario
+While we’re doing work using Git/Github, we normally work as a team. Team members usually create Local repositories while Team Leaders create Remote repositories. Team Leaders usually assign some tasks for team members to complete.
+Regarding the Git-Flow, as we can see that we start off from the Main Branch. Main branch serves as the main container for our production code. It is displayed when anyone visits our repository on GitHub and also the initial branch that Git checks out locally when someone clones the repository. The Main branch is the base which will be used for the production release.
+Develop Branch that branches off the Main branch is like a back-up branch, it represents stable production code and contains the latest work in progress. It serves as a staging area for ongoing development. We can integrate changes from various feature branches before they’re ready for production.
+In the Develop branch, we create feature branches as our own personal branches. During the development of features, there will be a lot of things that we need to modify. Since many people are working in the same repository, the code we’re working on is unstable and may cause breaking changes to other developers. So we develop our own branches, work on it until it is ready / can be merged into the develop branch. As seen in our diagram, we create three different features that work by different member, in each branch has different type of commits with a well-written messages that inform other developers our purpose of commit, this acts as a historical record of changes made in codebase and as well as communication tools that help with our work progress to continue with problems or conflicts. When each feature branch of one member is published, pull request and approved by the Leader, it will merge into the develop branch. The other members repeat the same process of work while making different commits.
+Feature branch allows developers to work on particular features without affecting the main codebase. Changes made in the feature branch can be committed, staged, and pushed to the remote repository. It keeps our works separate, preventing conflicts with our ongoing development. Moreover, developers can open pull requests for Code reviews or Feedback.
+After development work is completed, there is a release branch that branches out to deploy a new version . It’s a temporary branch that was created to prepare for a new production release. It forked off from the develop branch (when features are completed/merged into develop branch). The goal of using the release branch to stabilize code for the upcoming release or do the testing before release of the code/production. In some cases, if the release is already made and pushed to a remote repository, the other members that wanna use the same release can use git Track to track the release branch to continue our work. We can also use git Rebase in order to move the changes from one branch into another branch while reapplying commits on top of another base branch.
+Normally, before releasing our code/production, we need to test it first if there’s any issues in it. During the testing phase, there are some issues or defects that arise, we need to fix it by starting the process in the release branch and it is called Bugfix. It ensures that the upcoming release is stable and free from critical issues. When the fixing process is done in bugfix, it’ll merge into develop and main branch. While it merges into the main branch, we tag it with the release version(ex. Tag 1.0).
+We can assume that the production version is causing problems to the users due to server bugs, as developers we need to fix it by starting a branch called Hotfix. Hotfix is a type of branch that is used to solve critical issues or bugs in the live production version. Since the problems arise when we already launched our software/product., we need to checkout to the main branch to fix the issues and commit changes. Once everything is completed, it’ll merge into the main branch to ensure the fix is deployed to production, then tag it and merge to develop the branch to include the fix in the next regular release.
+
+
+Git-Flow Strategy: A Step-by-Step Guide
+Create a remote repository on GitHub :
+
+Sign in to your GitHub account at GitHub.
+Click on your profile icon in the top right corner and select “Your repositories” from the dropdown menu.
+Click the green “New” button to create a new repository.
+Fill in the repository details:
+Repository name.
+Description of the repository.
+Choose visibility (public or private).
+Initialize the repository with a README.
+Click the “Create Repository” button.
+
+Create Local Repository :
+
+Start with Visual Studio Code :
+
+
+Launch the VS Code and create a new folder for the project.
+Open the terminal in vs code.
+
+
+Start the command git:
+
+
+
+git init (start the git work)
+
+git remote add origin <repository_URL> (copy the link from the repository).
+git config user.name “username”
+git config user.email “email”
+
+
+Add files, Commit and Push:
+
+
+git push -u origin main
+
+git status (verify changes).
+
+
+Start Git-flow work :
+
+
+Command:
+
+
+git flow init -d (start the gitflow work, and automatically create the develop branch).
+
+git push origin develop (push the develop branch to the remote repository in the GitHub).
+
+
+
+
+
+Start Working on Feature branch
+
+Feature branch(1) :
+
+
+git checkout develop
+git flow feature start issue_1
+git flow feature start issue_2
+git flow feature start issue_3
+
+
+add changes, commit, push:
+
+
+git status
+git flow feature publish issue_1
+create the pull request and wait for the approval from the team.
+
+
+git flow feature finish issue_1 (automatically merge into develop branch and delete branch itself).
+git push origin develop.
+
+
+
+
+Feature branch(2) :
+
+
+Command:
+
+
+git checkout feature/issue_2
+
+git pull origin develop (get changes from the develop branch).
+
+
+add changes, commit, push:
+
+
+git status
+git flow feature publish issue_2
+create the pull request and wait for the approval from the team.
+
+git flow feature finish issue_2 (automatically merge into develop branch and delete branch itself).
+
+git push origin develop.
+
+
+Feature branch(3) :
+
+
+Command:
+
+
+git checkout feature/issue_3
+
+git pull origin develop (get changes from the develop branch).
+
+
+add changes, commit, push:
+
+
+git status
+git flow feature publish issue_3
+create the pull request and wait for the approval from the team.
+
+git flow feature finish issue_3 (automatically merge into develop branch and delete branch itself).
+
+git push origin develop.
+
+Start Working on Release branch and Bugfix
+
+Release branch(1) :
+
+
+Command:
+
+
+git checkout develop
+git flow release start 1.0
+git flow release publish 1.0
+git flow bugfix start bug-1 release/1.0
+
+
+add changes, commit, push:
+
+
+git status
+git flow publish bugfix bug-1
+create the pull request and wait for the approval from the team.
+git checkout release/1.0
+git pull origin release/1.0
+git checkout bugfix/bug-1
+git flow bugfix finish bug-1
+git checkout develop
+git pull origin develop
+git checkout main
+git pull origin main
+git checkout release/1.0
+
+git flow release finish 1.0(automatically merge into develop branch, also main branch, and delete branch itself)
+git push origin develop
+git push origin main
+git tag
+git push –tag
+
+Start Working on Hotfix branch
+
+Hotfix branch(1):
+
+
+Command:
+
+
+git checkout main
+git flow hotfix start 1.1
+
+
+add changes, commit, push:
+
+
+git flow hotfix publish 1.1
+create the pull request and wait for the approval from the team.
+git checkout main
+git pull origin main
+git pull origin develop
+git checkout hotfix/1.1
+
+git flow hotfix finish 1.1 (automatically merge into develop branch, also main branch, and delete branch itself)
+git push origin main
+git push origin develop
+git tag
+git push –tag
+
+Method of Track branch
+The git flow track command is used in Git Flow to set up tracking for branches that have been created using Git Flow's feature, release, bugfix, or hotfix commands. We would typically use git flow track when we want to establish a connection between our local branch and its corresponding branch on the remote repository.
+Track the branch from repository using command
+
+Feature branch :
+
+git flow feature track <feature_name>
+
+
+Release branch:
+
+git flow release track <release_name>
+
+
+Bugfix branch:
+
+git flow bugfix track <bugfix_name>
+
+
+Hotfix branch:
+
+git flow hotfix track <hotfix_name>
+
+
+
+Method of Merge branch
+Merging is a straightforward way to integrate changes from one branch into another. When we merge a branch into another branch, Git combines the changes from the source branch into the target branch, creating a new commit that represents the combined history of both branches.
+
+Command : (e.g merge main and develop)
+
+
+git checkout main
+git merge develop
+
+Method of Rebase branch
+Rebasing involves moving or "replaying" a series of commits from one branch into another branch's tip. It essentially rewrites the commit history by placing the commits from the source branch on top of the commits from the target branch. This results in a linear history, making it appear as if the changes were made directly on top of the target branch.
+
+Command : (rebase feature from develop)
+
+
+git checkout feature/issue_2
+git rebase develop
+
+Method of Reset/Revert branch
+
+First get the hash of the branch
+
+
+
+git log (to check the history commit and the hash of the branch)
+
+
+git checkout develop
+git reset <hash>
+
+Method of remote alias, commit history
+
+
+git remote -v (this will show the alias of our repository (fetch, origin))
+
+git log (this command can also show the commit history)
+
+Conclusion
+The Git-Flow branching strategy employed in this project offers a clear and organized approach to managing feature development, releases, and bug fixes. By utilizing branches such as main, develop, feature, release, bugfix, and hotfix, the project maintains a well-defined structure, enabling seamless integration of changes and ensuring the stability and reliability of the codebase.
+
+## Contact
+For any questions, feel free to contact me:
+- **Van Sopheaktra** - [sopheak1013@gmail.com](mailto:sopheak1013@gmail.com)
+- GitLab: [@travoby_7](https://git.clp.kr/travoby_7)
+

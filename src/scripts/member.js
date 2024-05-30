@@ -36,7 +36,7 @@ const memberCard = [{
 ]
 
 
-// Create carousel for popular items right now (shoes)
+
 const createCarouselMember = (arr)=>{
     return ` 
     <div class="">

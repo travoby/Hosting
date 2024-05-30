@@ -49,7 +49,6 @@ const popularRightNow = [{
 ]
 
 
-// Create carousel for popular items right now (shoes)
 const createCarouselPopular = (arr)=>{
     return ` 
     <div class="">
@@ -95,7 +94,7 @@ const createCarouselPopular = (arr)=>{
   </div>
     `
 }
-// createCarouselArr('Popular Right Now', popularRightNow,"popular-carousel",'shoe');
+
 export class PopularScroll extends HTMLElement{
     constructor(){
         super()
@@ -105,7 +104,7 @@ export class PopularScroll extends HTMLElement{
         this.innerHTML = createCarouselPopular(popularRightNow, title);
         this.setupEventListeners();
     }
-     // Add event listeners for back and next buttons
+s
      setupEventListeners(){
         const backBtn = this.querySelector("#back-btn");
         const nextBtn = this.querySelector("#next-btn");
@@ -114,7 +113,7 @@ export class PopularScroll extends HTMLElement{
         this.addNextEventListener(container, nextBtn);
       }
   
-      // Event listener for next button
+
       addNextEventListener(element, btn) {
         btn.addEventListener("click", function () {
           element.scrollBy({
@@ -124,7 +123,7 @@ export class PopularScroll extends HTMLElement{
         });
       }
   
-      // Event listener for back button
+
       addBackEventListener(element, btn) {
         btn.addEventListener("click", function () {
           element.scrollBy({

@@ -60,7 +60,7 @@ const trendingCard = [{
   </div>
     `
 }
-// createCarouselArr('Popular Right Now', popularRightNow,"popular-carousel",'shoe');
+
 export  class TrendingScroll extends HTMLElement{
     constructor(){
         super()
@@ -70,7 +70,7 @@ export  class TrendingScroll extends HTMLElement{
         this.innerHTML = createCarouselTrending(trendingCard, title);
         this.setupEventListeners();
     }
-     // Add event listeners for back and next buttons
+
      setupEventListeners(){
         const backBtn = this.querySelector("#back-btn");
         const nextBtn = this.querySelector("#next-btn");
@@ -79,7 +79,7 @@ export  class TrendingScroll extends HTMLElement{
         this.addNextEventListener(container, nextBtn);
       }
   
-      // Event listener for next button
+    
       addNextEventListener(element, btn) {
         btn.addEventListener("click", function () {
           element.scrollBy({
@@ -89,7 +89,7 @@ export  class TrendingScroll extends HTMLElement{
         });
       }
   
-      // Event listener for back button
+    
       addBackEventListener(element, btn) {
         btn.addEventListener("click", function () {
           element.scrollBy({

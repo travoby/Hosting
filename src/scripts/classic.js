@@ -34,28 +34,22 @@
 }
 
 const classCardArr = [{
-
     img: "../images/women-12.jpeg",
 },
 {
-
     img: "../images/women-9.jpeg",
 },
 {
     img: "../images/women-10.jpeg",
-
 },
 {
     img: "../images/women-8.jpeg",
-
 },
 {
     img: "../images/women-11.jpeg",
-
 },
 {
     img: "../images/women-12.jpeg",
-
 },
 
 ]
@@ -67,7 +61,7 @@ export  class CarouselClassic extends HTMLElement {
             this.innerHTML = createCarouselClassic(classCardArr);
             this.setupEventListeners();
         }
-            // Add event listeners for back and next buttons
+
             setupEventListeners(){
                 const backBtn = this.querySelector("#back-btn");
                 const nextBtn = this.querySelector("#next-btn");
@@ -76,7 +70,7 @@ export  class CarouselClassic extends HTMLElement {
                 this.addNextEventListener(container, nextBtn);
               }
           
-              // Event listener for next button
+
               addNextEventListener(element, btn) {
                 btn.addEventListener("click", function () {
                   element.scrollBy({
@@ -86,7 +80,7 @@ export  class CarouselClassic extends HTMLElement {
                 });
               }
           
-              // Event listener for back button
+
               addBackEventListener(element, btn) {
                 btn.addEventListener("click", function () {
                   element.scrollBy({

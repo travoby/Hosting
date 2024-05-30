@@ -39,7 +39,7 @@ The main objective of this project is to replicate the user interface, features,
 
 ## Contributing
 Contributions are welcome! If you would like to contribute, please follow these steps:
-![image](../vansopheaktra-nike-clone/src/images/gitflow.png)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/89925541/324228564-6be663ee-6f13-4466-92af-33aa549eb189.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240530%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240530T060050Z&X-Amz-Expires=300&X-Amz-Signature=436a4a6d7e9c94f9c48dcb2732f268ee08a21c0d97b583cfb443c91792ba24f7&X-Amz-SignedHeaders=host&actor_id=163325185&key_id=0&repo_id=777100563)
 
 
 Understanding Git-Flow

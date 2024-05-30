@@ -38,7 +38,7 @@ The main objective of this project is to replicate the user interface, features,
 - JavaScript
 - Tailwind CSS
 
-Link To [Notion Note](https://turquoise-soarer-c54.notion.siteVan-Sopheaktra-Notion-Note-f08331314a9b44189b7023f0b50f4524)
+Link To [Notion Note](https://shorturl.at/wTjj9)
 
 ## Contributing
 Contributions are welcome! If you would like to contribute, please follow these steps:

@@ -11,13 +11,13 @@ export const popular = document.querySelector(".popular-layout");
     
     function scrollPopNext(){
         scrollpop.scrollBy({
-            left: 100,
+            left: 200,
             behavior: "smooth",
           });
     }
     function scrollPopBack(){
         scrollpop.scrollBy({
-            left: -100,
+            left: -200,
             behavior: "smooth",
           });
     }

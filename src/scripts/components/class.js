@@ -1,66 +1,89 @@
-// // Classic Soprt slider
-// export const classic = document.querySelector(".classic-layout");
-//   fetch("../layout/classic.html")
-//   .then((res) => res.text())
-//   .then((data) => {
-//     classic.innerHTML = data;
-
-//     const pBtn = document.querySelector("#pBtn");
-//     const nBtn = document.querySelector("#nBtn");
-//     const classCard = document.querySelector("#classCard");
-//     const classImage = document.querySelectorAll("#classImage");
-
-//     currentIndex = 0;
-
-//     function classNext(){
-//         if (currentIndex < 2){
-//             currentIndex = (currentIndex + 1) % classImage.length;
-//             classupdateSlider()
-//         }
-//     }
-//     function classPrev() {
-//         if (currentIndex > 0) {
-//             currentIndex = (currentIndex - 1 + classImage.length) % classImage.length;
-//             classupdateSlider()
-            
-//         }
-//     }
-
-//     function classupdateSlider() {
-//         const offset = -currentIndex * 285; // Adjust this value as needed
-//         classCard.style.transform = `translateX(${offset}px)`;
-//     }
-//     pBtn.addEventListener("click", classPrev)
-//     nBtn.addEventListener("click", classNext)
-//   })
-//   .catch((error) => console.error("Error fetching included file:", error));
 
 
-  export const classic = document.querySelector(".classic-layout");
-  fetch("../layout/classic.html")
-  .then((res) => res.text())
-  .then((data) => {
-    classic.innerHTML = data;
-
-    const preBtn = document.querySelector("#previous");
-    const nextBtn = document.querySelector("#next");
-    const classContainer = document.getElementById(".classCard");
+    const createClassic = (arr)=>{
+        return `
+        <h2 class="p-4 text-3xl font-medium flex items-center relative z-0 mt-5">
+        Classic Spotlight
+      </h2>
+        <div id="default-carousel mt-4 " data-carousel="slide" class="w-full px-4 relative">
     
-    function scrollClassNext(){
-        classContainer.scrollBy({
-            left: 250,
-            behavior: "smooth",
-          });
-    }
-    function scrollClassBack(){
-        classContainer.scrollBy({
-            left: -250,
-            behavior: "smooth",
-          });
+        <div id="cardScroll"  class="relative w-full flex flex-nowrap gap-4 flex-none overflow-x-auto no-scrollbar">
+            ${arr.map((item)=>{
+                return `
+                <div class="flex-none z-0">
+                    <img class=" w-[360px]" src="${item.img}" alt="">
+                </div>
+                `
+            }).join('')}
+    
+        </div>
+        <button id="previous" class="absolute z-40 left-8 rounded-full bg-gray-200 p-2 top-[40%] flex items-center justify-center h-50% focus:outline-none">
+                <img src="../images/left-chevron.png" alt="" class="w-[30px]" />
+            </button>
+        <button id="next" class="absolute z-40 right-8 rounded-full bg-gray-200 p-2 top-[40%] flex items-center justify-center h-50% focus:outline-none" >
+                <img src="../images/chevron.png" alt="" class="w-[30px]" />
+            </button>
+    </div>`
     }
     
-    preBtn.addEventListener("click",scrollClassBack)
-    nextBtn.addEventListener("click",scrollClassNext)
-   
-  })
-  .catch((error) => console.error("Error fetching included file:", error));
+    const classCardArr = [{
+        img: "../images/women-12.jpeg",
+    },
+    {
+        img: "../images/women-9.jpeg",
+    },
+    {
+        img: "../images/women-10.jpeg",
+    },
+    {
+        img: "../images/women-8.jpeg",
+    },
+    {
+        img: "../images/women-11.jpeg",
+    },
+    {
+        img: "../images/women-12.jpeg",
+    },
+    
+    ]
+    export  class Classic extends HTMLElement {
+            constructor(){
+                super()
+            }
+            connectedCallback(){
+                this.innerHTML = createClassic(classCardArr);
+                this.setupEventListeners();
+            }
+    
+                setupEventListeners(){
+                    const backBtn = this.querySelector("#previous");
+                    const nextBtn = this.querySelector("#next");
+                    const cardScroll = this.querySelector("#cardScroll");
+                    this.addBackEventListener(cardScroll, backBtn);
+                    this.addNextEventListener(cardScroll, nextBtn);
+                  }
+              
+    
+                  addNextEventListener(element, btn) {
+                    btn.addEventListener("click", function () {
+                      element.scrollBy({
+                        left: 300,
+                        behavior: "smooth",
+                      });
+                    });
+                  }
+              
+    
+                  addBackEventListener(element, btn) {
+                    btn.addEventListener("click", function () {
+                      element.scrollBy({
+                        left: -300,
+                        behavior: "smooth",
+                      });
+                    });
+                  }
+        }
+        
+        customElements.define("classic-slider", Classic)
+    
+    

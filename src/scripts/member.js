@@ -35,8 +35,6 @@ const memberCard = [{
 
 ]
 
-
-
 const createCarouselMember = (arr)=>{
     return ` 
     <div class="">

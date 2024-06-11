@@ -1,5 +1,5 @@
 // Classic Soprt slider
-const classic = document.querySelector(".classic-layout");
+export const classic = document.querySelector(".classic-layout");
   fetch("../layout/classic.html")
   .then((res) => res.text())
   .then((data) => {

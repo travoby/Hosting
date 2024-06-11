@@ -1,6 +1,5 @@
-
 // Popular slider
-const popular = document.querySelector(".popular-layout");
+export const popular = document.querySelector(".popular-layout");
   fetch("../layout/popular.html")
   .then((res) => res.text())
   .then((data) => {

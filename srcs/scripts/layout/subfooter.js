@@ -1,4 +1,4 @@
- const subfooter = document.querySelector(".subfooter-layout");
+export const subfooter = document.querySelector(".subfooter-layout");
 fetch("../layout/subfooter.html")
 .then((res) => res.text())
 .then((data) => {

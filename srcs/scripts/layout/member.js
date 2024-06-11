@@ -1,12 +1,12 @@
 // Member Benefit slider
-const member = document.querySelector(".member-layout");
+export const member = document.querySelector(".member-layout");
   fetch("../layout/member.html")
   .then((res) => res.text())
   .then((data) => {
     member.innerHTML = data;
 
     // Members
-    const memCardContainer = document.getElementById("Memcard");
+    const memCardContainer = document.getElementById("memCard");
     const memImages = document.querySelectorAll("#memImage");
     const memPreBtn = document.getElementById("memPreBtn");
     const memNextBtn = document.getElementById("memNextBtn");
@@ -31,7 +31,6 @@ const member = document.querySelector(".member-layout");
         const offset = -currentIndex * 560; // Adjust this value as needed
         memCardContainer.style.transform = `translateX(${offset}px)`;
     }
-
 
     memPreBtn.addEventListener("click",  memPrev)
     memNextBtn.addEventListener("click", memNext)

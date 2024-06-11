@@ -1,5 +1,4 @@
 
-
 // Populartion  Section
 
 const popularCard = document.getElementById('popularCard');

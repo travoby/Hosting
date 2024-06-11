@@ -11,19 +11,19 @@ export const popular = document.querySelector(".popular-layout");
     
     function scrollPopNext(){
         scrollpop.scrollBy({
-            left: 300,
+            left: 200,
             behavior: "smooth",
           });
     }
     function scrollPopBack(){
         scrollpop.scrollBy({
-            left: -300,
+            left: -200,
             behavior: "smooth",
           });
     }
     
     popularPre.addEventListener("click",scrollPopBack)
-    popularNext.addEventListener("click", scrollPopNext)
+    popularNext.addEventListener("click",scrollPopNext)
    
   })
   .catch((error) => console.error("Error fetching included file:", error));

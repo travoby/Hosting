@@ -10,7 +10,7 @@ const createFreeShipping = ()=>{
 
     `;
 }
-export class Free extends HTMLElement {
+class Free extends HTMLElement {
     constructor(){
         super()
     }

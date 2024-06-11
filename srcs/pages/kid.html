@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!--call navbar from component layout by class-->
     <navbar-layout class="navbar-layout"></navbar-layout>
 
@@ -26,7 +25,6 @@
     
     <!-- body write here -->
 <section class="max-w-[1536px] mx-auto mt-10 px-4">
-
 
     <section class="  mx-auto sticky top-0 z-[50] bg-white member-content-layout">
         <header class="w-full items-center lg:justify-center justify-between flex">
@@ -158,103 +156,7 @@
     </section>
    
     <!-- Popular -->
-    <section>
-        <div class="mx-auto max-w-[1536px] mt-8 px-4 flex justify-between items-center">
-            <h1 class="text-3xl"> Popular Right Now</h1>
-            <div class="flex gap-4 items-center">
-                <h1 class="text-xl">Shop All</h1>
-                <button id="kidPopPre"
-                    class=" bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                        src="../images/left-chevron.png" alt="" class="w-[30px]"></button>
-                <button id="kidPopNext"
-                    class="bg-gray-100 w-[50px] h-[50px] rounded-full flex justify-center items-center"><img
-                        src="../images/chevron.png" alt="" class="w-[30px]"></button>
-            </div>
-        </div>
-    
-
-            <div class="max-w-[1536px] mx-auto px-4 flex mt-8  ">
-                <div id="kidPopCard" class="flex  gap-5 overflow-x-scroll">
-    
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular1.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Free Metcon 5></h3>
-                        <p class=" text-[#707072]">Women's Workout Shoes</p>
-                        <p>$120</p>
-    
-                    </div>
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular2.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Killshot 2</h3>
-                        <p class=" text-[#707072]">Women's Shoes</p>
-                        <p>$90</p>
-    
-                    </div>
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular3.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Air VaporMax Plus</h3>
-                        <p class=" text-[#707072]">Women's Shoes</p>
-                        <p>$210</p>
-    
-                    </div>
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular4.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike V2K Run</h3>
-                        <p class=" text-[#707072]">Shoes</p>
-                        <p>$110</p>
-    
-                    </div>
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular5.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Invincible 3 </h3>
-                        <p class=" text-[#707072]">women's Road Runing Shoes</p>
-                        <p>$180</p>
-    
-                    </div>
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular6.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Air Max 90 LV8</h3>
-                        <p class=" text-[#707072]">womwn's Shoes</p>
-                        <p>$150</p>
-    
-                    </div>
-    
-                    <div class="w-full">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular7.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Gamma Force</h3>
-                        <p class=" text-[#707072]">Women's Shoes</p>
-                        <p>$95</p>
-    
-                    </div>
-                    <div class="w-full py-5">
-                        <div class="w-[400px] h-[400px]">
-                            <img src="../images/w-popular8.png" alt="" class="w-full h-full object-cover">
-                        </div>
-                        <h3 class="mt-4 font-semibold">Nike Vaporfly</h3>
-                        <p class=" text-[#707072]">Women's Road Racing Shoes</p>
-                        <p>$260</p>
-    
-                    </div>
-    
-                </div>
-            </div>
-      
-
-    </section>
+    <popular-layout class="popular-layout"></popular-layout>
 
     <!-- trending -->
     <section>
@@ -285,7 +187,6 @@
             </div>
   
     </section>
- 
 
     <!-- More -->
     <section>
@@ -342,12 +243,12 @@
  
 
 </body>
-
 <!-- script link component javascript-->
-<script type="module" src="../scripts/footer.js"></script>
-<script src="../scripts/subfooter.js"></script>
-<script type="module" src="../scripts/navbar.js"></script>
-<script src="../scripts/class.js"></script>
+<script type="module" src="../scripts/layout/navbar.js"></script>
+<script src="../scripts/layout/footer.js"></script>
+<script type="module" src="../scripts/layout/subfooter.js"></script>
+<script src="../scripts/layout/class.js"></script>
 <script src="../scripts/kid.js"></script>
+<script src="../scripts/layout/popular.js"></script>
 
 </html>
